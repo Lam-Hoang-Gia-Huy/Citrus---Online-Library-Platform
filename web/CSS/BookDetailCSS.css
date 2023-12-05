@@ -1,0 +1,129 @@
+body{
+    background-color: antiquewhite;
+}
+.logo{
+    width: 15%;
+    float:left;
+}
+.top{
+    display: inline-block;
+}
+.button1{
+    font-size: 100%;
+    color:aliceblue;
+}
+.bookmarked{
+    background-color: blueviolet;
+    border-color: #000;
+}
+.bookmark{
+    background-color:#3EBBA3;
+}
+
+.bookmark:hover{
+    background-color: #999999;
+}
+
+.bookmarked:hover{
+    background-color: cornflowerblue;
+    border-color: #000;
+}
+
+.review{
+    background-color: darkcyan;
+}
+
+.review:hover{
+    background-color: darkorange;
+}
+
+.synopsis{
+    background-color:#21ADC8;
+    font-size: 150%; 
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin-right: 550px
+}
+
+.showcontent{
+    background-color: blueviolet;
+    font-size: 150%; 
+    color: whitesmoke; 
+    padding: 10px 10px;
+    border-radius: 5px
+}
+
+.showcontent:hover{
+    background-color: darkorange;
+}
+.summary{
+    background-color:#989660;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 0 #c3b683;
+    padding: 10px 10px;
+}
+.score{
+    display: inline;
+    float: left;
+    margin: 15px;
+    background-color: #5F9CCF;
+    border-radius: 10px
+}
+.score p{
+    background-color: #1A355F;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius:5px;
+    margin-top: 0px;
+    display: block;
+}
+.score span{
+    padding: 0px 17px;
+    text-align: center;
+    display: block;
+    color: whitesmoke;
+}
+.cover{
+    width: 180px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 0 #c3b683;
+}
+.information{
+    display:inline-block;
+    margin:20px 20px; 
+    font-size: 150%; 
+    width:32%;
+    float: left;
+}
+.information strong{
+    font-size: 40px;
+    float:left;
+    width: 100%;
+    height: auto;
+}
+.information div:nth-child(3){
+    display:inline-block;
+    padding: 20px;
+    padding-bottom: 70px;
+}
+.information div:nth-child(4){
+    display:inline-block;
+}
+.line{
+    border-left: 6px solid black;
+    height: 300px;
+    display: inline-block;
+    float: left;
+}
+.right{
+    display:inline;
+    margin:10px;
+    width:47%;
+    float: left;
+    margin:20px 10px;
+}
+details{
+    margin-left: 30px;
+    float:left;
+}
